@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <!--tools 的 意思是工具， 只有在编写代码的时候才可以看到，
+    一旦跑到真机上这段代码是无效的    这句话你可以不管-->
+
+    <!--这是一条新闻，左边是图片，上面是标题，下面是时间。 新闻列表就是很多个这样组成的-->
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/img_icon"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginRight="20dp"
+        tools:background="#00ff00"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            tools:text="标题"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            tools:text="des"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+    </LinearLayout>
+</android.widget.LinearLayout>

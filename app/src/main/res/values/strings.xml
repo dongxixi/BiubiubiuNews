@@ -1,0 +1,26 @@
+<resources>
+    <!--这里是一些文本信息，可以不管-->
+    <string name="app_name">BiuBiuBiuNews</string>
+    <string name="result_error">请求数据失败，可能当天超过100次，或者检查网络。反正就是没新闻给你看了</string>
+    <string name="type_top">top</string>
+    <string name="type_society">shehui</string>
+    <string name="type_entertainment">yule</string>
+    <string name="type_sports">tiyu</string>
+    <string name="type_finance">caijing</string>
+    <string name="type_technology">keji</string>
+    <string name="type_military">junshi</string>
+    <string name="type_fashion">shishang</string>
+
+    <!--这里是新闻的分类信息-->
+    <string-array name="tab_names">
+        <item>头条</item>
+        <item>社会</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>军事</item>
+        <item>时尚</item>
+    </string-array>
+
+</resources>
